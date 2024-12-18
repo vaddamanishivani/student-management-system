@@ -1,4 +1,11 @@
 #student-management-system
+
+
+
+
+
+
+
 import java.util.ArrayList;
 import java.util.Scanner;
 class Student {
@@ -34,5 +41,3 @@ static void addStudent() {
         students.removeIf(s -> s.id.equals(scanner.next()));
     }
 }
-
-    
