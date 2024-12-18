@@ -1,13 +1,11 @@
 #student-management-system
-
-
-
-
-
-
-
 import java.util.ArrayList;
 import java.util.Scanner;
+
+
+
+
+
 class Student {
     String id, name;
     Student(String id, String name) { this.id = id; this.name = name; }
