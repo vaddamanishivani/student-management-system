@@ -6,11 +6,6 @@ class Student {
     Student(String id, String name) { this.id = id; this.name = name; }
     public String toString() { return id + " - " + name; }
 }
-
-
-
-
-
 public class StudentManagementSystem {
     static ArrayList<Student> students = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
