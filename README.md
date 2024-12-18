@@ -1,16 +1,16 @@
 #student-management-system
 import java.util.ArrayList;
 import java.util.Scanner;
-
-
-
-
-
 class Student {
     String id, name;
     Student(String id, String name) { this.id = id; this.name = name; }
     public String toString() { return id + " - " + name; }
 }
+
+
+
+
+
 public class StudentManagementSystem {
     static ArrayList<Student> students = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
